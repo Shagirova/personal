@@ -1,0 +1,172 @@
+* {
+  background-color: #23252C;
+}
+
+.App {
+  margin-left: auto;
+  margin-right: auto;
+  width: 20em
+}
+
+.Photo {
+  padding-top: 2em;
+  padding-bottom: 0em;
+  display: block;
+}
+
+.MainContent {
+  padding-top: 0.5em;
+  background: #1A1B21;
+}
+
+.PersonalTitle {
+  margin-left: auto;
+  margin-right: auto;
+  width: 15em;
+  background: #1A1B21;
+}
+
+.PersonalTitle > h1 {
+  background: #1A1B21;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+color: #FFFFFF;
+}
+.PersonalTitle > h2 {
+  background: #1A1B21;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12.8px;
+line-height: 15px;
+text-align: center;
+color: #F3BF99;
+}
+
+.PersonalTitle > h3 {
+  background: #1A1B21;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+text-align: center;
+color: #F5F5F5;
+}
+
+.ContactButtons {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  background: #1A1B21;
+}
+
+.ContactButtons .EmailButton {
+  width: 115px;
+height: 34px;
+left: 151px;
+top: 468px;
+background-color: #FFFFFF;
+border: 1px solid #D1D5DB;
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+margin-left: 3.5em;
+margin-right: 1em;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+
+/* gray/700 */
+
+color: #374151;
+}
+
+.ContactButtons .EmailButton >img {
+  background-color: #FFFFFF;
+}
+
+.ContactButtons .LinkedInButton {
+  width: 115px;
+height: 34px;
+left: 283px;
+top: 468px;
+color: white;
+background-color: #5093E2;
+padding-right: 2em;
+/* shadow/sm */
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+color: #FFFFFF;
+
+}
+
+.ContactButtons .LinkedInButton >img {
+  background-color: #5093E2;
+}
+
+.TextContent {
+  padding-left: 2em;
+  padding-right: 2em;
+  background-color: #1A1B21;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+.TextContent > h1 {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+color: #F5F5F5;
+background-color: #1A1B21;
+}
+
+.TextContent > p {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+color: #DCDCDC;
+background-color: #1A1B21;
+}
+
+.Footer {
+  background: #161619;
+border-radius: 0px 0px 10px 10px;
+display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  
+}
+
+.Footer >img {
+  background: #161619;
+  padding-left: 1.5em;
+
+}
+
+.Footer .Twitter {
+  background: #161619;
+  padding-left: 5em;
+  
+}
